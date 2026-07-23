@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 26.2.3.2 (Linux)"/>
+	<meta name="created" content="00:00:00"/>
+	<meta name="changed" content="00:00:00"/>
+	<style type="text/css">
+		@page { size: 8.27in 11.69in; margin: 0.79in }
+		p { margin-bottom: 0.1in; line-height: 115%; background: transparent }
+		pre { font-size: 10pt; font-family: "Liberation Mono", monospace; background: transparent }
+	</style>
+</head>
+<body lang="en-US" link="#000080" vlink="#800000" dir="ltr"><pre>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;hi&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;Raj Rose Nursery - Aapka Green Partner&lt;/title&gt;
+    &lt;style&gt;
+        /* General Setup */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #f7f9f6;
+            color: #333;
+            line-height: 1.6;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* Header &amp; Navigation */
+        header {
+            background-color: #2e7d32;
+            color: white;
+            padding: 15px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .logo h1 {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        nav ul li {
+            margin-left: 20px;
+        }
+        nav ul li a:hover {
+            color: #a5d6a7;
+            border-bottom: 2px solid #a5d6a7;
+        }
+
+        /* Hero Banner */
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://unsplash.com') no-repeat center center/cover;
+            height: 60vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            padding: 0 20px;
+        }
+        .hero h2 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 20px;
+            max-width: 600px;
+        }
+        .btn {
+            background-color: #e65100;
+            color: white;
+            padding: 10px 25px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background-color: #f57c00;
+        }
+
+        /* Container &amp; Titles */
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .section-title {
+            text-align: center;
+            color: #2e7d32;
+            margin-bottom: 30px;
+            font-size: 28px;
+            position: relative;
+        }
+        .section-title::after {
+            content: '';
+            width: 80px;
+            height: 3px;
+            background-color: #e65100;
+            display: block;
+            margin: 8px auto 0;
+        }
+
+        /* Plant Grid Layout */
+        .plant-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin-bottom: 50px;
+        }
+        .plant-card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            transition: 0.3s;
+            text-align: center;
+        }
+        .plant-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+        }
+        .plant-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .plant-info {
+            padding: 15px;
+        }
+        .plant-info h4 {
+            font-size: 18px;
+            color: #1b5e20;
+            margin-bottom: 5px;
+        }
+        .plant-info p {
+            font-size: 14px;
+            color: #666;
+        }
+
+        /* About Section */
+        .about-section {
+            background-color: #e8f5e9;
+            padding: 40px 20px;
+            border-radius: 8px;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+        .about-section p {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 16px;
+        }
+
+        /* Contact Footer */
+        footer {
+            background-color: #1b5e20;
+            color: white;
+            padding: 40px 5% 20px;
+            margin-top: 40px;
+        }
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-bottom: 20px;
+        }
+        .footer-col h3 {
+            border-bottom: 2px solid #a5d6a7;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+        .footer-col p, .footer-col li {
+            font-size: 14px;
+            margin-bottom: 8px;
+            list-style: none;
+        }
+        .footer-bottom {
+            text-align: center;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            padding-top: 20px;
+            font-size: 12px;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+    &lt;!-- Header Section --&gt;
+    &lt;header&gt;
+        &lt;div class=&quot;logo&quot;&gt;
+            &lt;h1&gt;Raj Rose Nursery&lt;/h1&gt;
+        &lt;/div&gt;
+        &lt;nav&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;#indoor&quot;&gt;Indoor Plants&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;#outdoor&quot;&gt;Outdoor Plants&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;#about&quot;&gt;About Us&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href=&quot;#contact&quot;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/nav&gt;
+    &lt;/header&gt;
+
+    &lt;!-- Hero Banner Section --&gt;
+    &lt;section class=&quot;hero&quot;&gt;
+        &lt;h2&gt;Apne Ghar Ko Prakriti Ke Rangon Se Sajayein!&lt;/h2&gt;
+        &lt;p&gt;Raj Rose Nursery mein aapko milenge sabhi prakar ke high-quality indoor, outdoor aur decorative paudhe, bilkul sahi daam par.&lt;/p&gt;
+        &lt;a href=&quot;https://wa.me&quot; target=&quot;_blank&quot; class=&quot;btn&quot;&gt;WhatsApp Par Order Karein&lt;/a&gt;
+    &lt;/section&gt;
+
+    &lt;div class=&quot;container&quot;&gt;
+        
+        &lt;!-- Indoor Plants Section --&gt;
+        &lt;h3 class=&quot;section-title&quot; id=&quot;indoor&quot;&gt;🏡 Beautiful Indoor Plants&lt;/h3&gt;
+        &lt;div class=&quot;plant-grid&quot;&gt;
+            &lt;div class=&quot;plant-card&quot;&gt;
+                &lt;!-- Aap is URL ki jagah apni nursery ki photo ka link laga sakte hain --&gt;
+                &lt;img src=&quot;https://unsplash.com&quot; alt=&quot;Money Plant&quot;&gt;
+                &lt;div class=&quot;plant-info&quot;&gt;
+                    &lt;h4&gt;Money Plant&lt;/h4&gt;
+                    &lt;p&gt;Ghar ki hawa ko shuddh karne aur positivity badhane ke liye sabse behtar paudha.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;plant-card&quot;&gt;
+                &lt;img src=&quot;https://unsplash.com&quot; alt=&quot;Snake Plant&quot;&gt;
+                &lt;div class=&quot;plant-info&quot;&gt;
+                    &lt;h4&gt;Snake Plant&lt;/h4&gt;
+                    &lt;p&gt;Kam dekhbhal mein chalne wala aur bedroom ke liye best air-purifier paudha.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;plant-card&quot;&gt;
+                &lt;img src=&quot;https://unsplash.com&quot; alt=&quot;ZZ Plant&quot;&gt;
+                &lt;div class=&quot;plant-info&quot;&gt;
+                    &lt;h4&gt;ZZ Plant&lt;/h4&gt;
+                    &lt;p&gt;Iske chamakdar hare patte ghar ke andar ke har kone ko sundar banate hain.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;!-- Outdoor Plants Section --&gt;
+        &lt;h3 class=&quot;section-title&quot; id=&quot;outdoor&quot;&gt;🌳 Fresh Outdoor Plants&lt;/h3&gt;
+        &lt;div class=&quot;plant-grid&quot;&gt;
+            &lt;div class=&quot;plant-card&quot;&gt;
+                &lt;img src=&quot;https://unsplash.com&quot; alt=&quot;Premium Roses&quot;&gt;
+                &lt;div class=&quot;plant-info&quot;&gt;
+                    &lt;h4&gt;Premium Rose Varieties&lt;/h4&gt;
+                    &lt;p&gt;Hamari nursery ki sabse badi khasiyat – har rang aur variety ke gulab ke paudhe.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;plant-card&quot;&gt;
+                &lt;img src=&quot;https://unsplash.com&quot; alt=&quot;Hibiscus&quot;&gt;
+                &lt;div class=&quot;plant-info&quot;&gt;
+                    &lt;h4&gt;Hibiscus (Gudhal)&lt;/h4&gt;
+                    &lt;p&gt;Ghar ke mandir aur garden ki shoba badhane ke liye kai rangon mein uplabdh.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;plant-card&quot;&gt;
+                &lt;img src=&quot;https://unsplash.com&quot; alt=&quot;Areca Palm&quot;&gt;
+                &lt;div class=&quot;plant-info&quot;&gt;
+                    &lt;h4&gt;Areca Palm&lt;/h4&gt;
+                    &lt;p&gt;Balcony ya garden ki boundary ko lamba aur hara-bhara look dene ke liye best.&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;!-- About Us Section --&gt;
+        &lt;h3 class=&quot;section-title&quot; id=&quot;about&quot;&gt;🌿 Hamare Baare Mein&lt;/h3&gt;
+        &lt;div class=&quot;about-section&quot;&gt;
+            &lt;p&gt;&lt;strong&gt;Raj Rose Nursery&lt;/strong&gt; pichle kai saalon se aapke ilaqe mein sabse saste aur swasth (healthy) paudhe de raha hai. Hamara maksad har ghar ko hara-bhara aur sundar banana hai. Paudhon ke sath-sath hum sahi mitti, vermicompost (khaad), aur designer gamle (pots) bhi provide karte hain taaki aapke paudhe hamesha khile rahein.&lt;/p&gt;
+        &lt;/div&gt;
+
+    &lt;/div&gt;
+
+    &lt;!-- Contact &amp; Footer Section --&gt;
+    &lt;footer id=&quot;contact&quot;&gt;
+        &lt;div class=&quot;footer-content&quot;&gt;
+            &lt;div class=&quot;footer-col&quot;&gt;
+                &lt;h3&gt;Raj Rose Nursery&lt;/h3&gt;
+                &lt;p&gt;Aapka Apna Green Partner. Hum quality aur customer ke vishwas par kaam karte hain.&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;footer-col&quot;&gt;
+                &lt;h3&gt;Nursery Details&lt;/h3&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;📍 &lt;strong&gt;Address:&lt;/strong&gt; Raj Rose Nursery, [Aapka Pura Address Yahan Likhein], India.&lt;/li&gt;
+                    &lt;li&gt;📞 &lt;strong&gt;Phone/WhatsApp:&lt;/strong&gt; +91-99999 99999&lt;/li&gt;</pre>
+</body>
+</html>
